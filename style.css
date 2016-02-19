@@ -1,0 +1,117 @@
+body {
+	margin: 0%;
+	background-color: white;
+}
+
+.view a {
+	padding-left: 7px;
+	padding-right: 50px; 
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	left: 30px;
+	top: 480px;
+	font-family: sans-serif;
+}
+.view a:after {
+	content: "";
+	height: 100%;
+	min-width: 1px;
+	background: silver;
+	position: absolute;
+	border-radius: 5px;
+	left: 0;
+	bottom: 0;
+	transition: all 1.5s;
+}
+.view a:hover:after {
+	min-width: 100%;
+	background: lightcoral;
+	opacity: 0.1;
+	border-radius: 5px;
+}
+.header {
+	background-color: red;
+	height: 100px;
+}
+
+.header a {
+	text-decoration: none;
+	color: white;
+	font-family: monospace;
+	position: relative;
+	font-size: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	left: 25px;
+	top: 25px;
+
+}
+
+.header a:after {
+	content: "";
+	height: 100%;
+	min-width: 4px;
+	background: snow;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: all 0.7s;
+}
+
+.header a:hover:after {
+	min-width: 100%;
+	background: white;
+	opacity: 0.3;
+	border-radius: 5px;
+}
+
+.content1 {
+	height: 300px;
+	width: 600px;
+	margin-top: 70px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	border: 0.5px solid silver;
+	border-radius: 2px;
+	background: snow;
+	background-image: url(img/lincoln.jpg); 
+}
+
+.content2 {
+	height: 300px;
+	width: 600px;
+	margin-top: 150px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	border: 0.5px solid silver;
+	border-radius: 2px;
+	background: snow;
+	background-image: url(img/superman.jpg); 
+}
+
+.content3 {
+	height: 300px;
+	width: 600px;
+	margin-top: 150px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	border: 0.5px solid silver;
+	border-radius: 2px;
+	background: snow;
+	background-image: url(img/marvel.jpg); 
+}
+
+.content4 {
+	height: 300px;
+	width: 600px;
+	margin-top: 150px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	border: 0.5px solid silver;
+	border-radius: 2px;
+	background: snow;
+	background-image: url(img/joker.jpg); 
+}
+
